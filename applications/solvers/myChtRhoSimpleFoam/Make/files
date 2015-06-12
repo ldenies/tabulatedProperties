@@ -1,0 +1,4 @@
+myChtRhoSimpleFoam.C
+
+EXE = $(FOAM_APPBIN)/myChtRhoSimpleFoam
+

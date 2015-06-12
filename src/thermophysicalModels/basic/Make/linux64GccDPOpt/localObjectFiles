@@ -1,0 +1,12 @@
+LOCAL_OBJECTS = \
+basicThermo.o\
+fluidThermo.o\
+psiThermo.o\
+psiThermos.o\
+rhoThermo.o\
+rhoThermos.o\
+fixedEnergyFvPatchScalarField.o\
+gradientEnergyFvPatchScalarField.o\
+mixedEnergyFvPatchScalarField.o\
+energyJumpFvPatchScalarField.o\
+energyJumpAMIFvPatchScalarField.o

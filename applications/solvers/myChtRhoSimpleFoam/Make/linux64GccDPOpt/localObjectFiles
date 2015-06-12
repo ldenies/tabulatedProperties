@@ -1,0 +1,2 @@
+LOCAL_OBJECTS = \
+myChtRhoSimpleFoam.o

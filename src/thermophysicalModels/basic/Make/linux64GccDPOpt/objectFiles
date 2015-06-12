@@ -1,0 +1,12 @@
+OBJECTS = \
+$(OBJECTS_DIR)/basicThermo.o\
+$(OBJECTS_DIR)/fluidThermo.o\
+$(OBJECTS_DIR)/psiThermo.o\
+$(OBJECTS_DIR)/psiThermos.o\
+$(OBJECTS_DIR)/rhoThermo.o\
+$(OBJECTS_DIR)/rhoThermos.o\
+$(OBJECTS_DIR)/fixedEnergyFvPatchScalarField.o\
+$(OBJECTS_DIR)/gradientEnergyFvPatchScalarField.o\
+$(OBJECTS_DIR)/mixedEnergyFvPatchScalarField.o\
+$(OBJECTS_DIR)/energyJumpFvPatchScalarField.o\
+$(OBJECTS_DIR)/energyJumpAMIFvPatchScalarField.o

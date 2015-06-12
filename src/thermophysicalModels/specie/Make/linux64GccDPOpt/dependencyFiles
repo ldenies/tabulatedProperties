@@ -1,0 +1,5 @@
+DEPENDENCIES = \
+atomicWeights/atomicWeights.dep\
+specie/specie.dep\
+reaction/reactions/makeReactions.dep\
+reaction/reactions/makeLangmuirHinshelwoodReactions.dep

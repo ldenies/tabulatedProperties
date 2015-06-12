@@ -1,0 +1,12 @@
+DEPENDENCIES = \
+basicThermo/basicThermo.dep\
+fluidThermo/fluidThermo.dep\
+psiThermo/psiThermo.dep\
+psiThermo/psiThermos.dep\
+rhoThermo/rhoThermo.dep\
+rhoThermo/rhoThermos.dep\
+derivedFvPatchFields/fixedEnergy/fixedEnergyFvPatchScalarField.dep\
+derivedFvPatchFields/gradientEnergy/gradientEnergyFvPatchScalarField.dep\
+derivedFvPatchFields/mixedEnergy/mixedEnergyFvPatchScalarField.dep\
+derivedFvPatchFields/energyJump/energyJump/energyJumpFvPatchScalarField.dep\
+derivedFvPatchFields/energyJump/energyJumpAMI/energyJumpAMIFvPatchScalarField.dep

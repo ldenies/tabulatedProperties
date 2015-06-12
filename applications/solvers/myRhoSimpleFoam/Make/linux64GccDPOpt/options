@@ -1,0 +1,57 @@
+# 1 "options"
+# 1 "<command-line>"
+
+
+
+
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+
+# 17 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 4 "<command-line>" 2
+# 1 "options"
+EXE_INC = -I$(WM_PROJECT_USER_DIR)/src/thermophysicalModels/basic/lnInclude -I$(LIB_SRC)/turbulenceModels -I$(LIB_SRC)/turbulenceModels/compressible/RAS/RASModel -I$(LIB_SRC)/finiteVolume/cfdTools -I$(LIB_SRC)/finiteVolume/lnInclude -I$(LIB_SRC)/sampling/lnInclude -I$(LIB_SRC)/meshTools/lnInclude -I$(LIB_SRC)/fvOptions/lnInclude
+# 10 "options"
+
+EXE_LIBS = -L$(FOAM_USER_LIBBIN) -lfluidThermophysicalModels -lspecie -lcompressibleTurbulenceModel -lcompressibleRASModels -lfiniteVolume -lsampling -lmeshTools -lfvOptions
