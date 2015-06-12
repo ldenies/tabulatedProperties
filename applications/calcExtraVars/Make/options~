@@ -1,0 +1,12 @@
+EXE_INC = \
+    -I$(WM_PROJECT_USER_DIR)/src/thermophysicalModels/basic/lnInclude \
+    -I$(LIB_SRC)/finiteVolume/lnInclude
+
+EXE_LIBS = \
+    -L$(FOAM_USER_LIBBIN) \
+    -lmeshTools \
+    -lspecie \
+    -lbasicThermo \
+    -lfiniteVolume \
+    -lgenericPatchFields
+
