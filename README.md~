@@ -18,5 +18,5 @@ Requires a table in pressure and temperature for:
 
 To be added soon:
 - Tutorial case
-- Support for putting property tables in case/constant directory instead of root
+- Support for putting tables in case/constant directory instead of root
 
