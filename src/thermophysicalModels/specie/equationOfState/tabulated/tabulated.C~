@@ -41,8 +41,8 @@ template<class Specie>
 Foam::tabulated<Specie>::tabulated(const dictionary& dict)
 :
     Specie(dict),
-    rhoTable_ ("/home/luka/rho"),   
-    cpMcvTable_ ("/home/luka/cpMcv")    
+    rhoTable_ ("constant/rho"),   
+    cpMcvTable_ ("constant/cpMcv")    
 {}
 
 

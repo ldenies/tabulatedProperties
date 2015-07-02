@@ -11,6 +11,7 @@
         )
       - fvm::laplacian(turbulence->alphaEff(), he)
       + fvc::div(turbulence->devRhoReff() & U)
+      + fvc::div(p*U)
      ==
         radiation->Sh(thermo)
       + fvOptions(rho, he)

@@ -78,8 +78,8 @@ class tabulatedThermo
         inline tabulatedThermo
         (
             const EquationOfState& st,
-            const scalar cp,
-            const scalar hf
+            const interpolation2DTable<scalar> cpTable,
+            const interpolation2DTable<scalar> hTable
         );
 
 public:

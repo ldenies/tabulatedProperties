@@ -46,7 +46,9 @@
 
     dimensionedScalar rhoMax(simple.dict().lookup("rhoMax"));
     dimensionedScalar rhoMin(simple.dict().lookup("rhoMin"));
-
+    dimensionedScalar pMax(simple.dict().lookup("pMax"));
+    dimensionedScalar pMin(simple.dict().lookup("pMin"));
+    
     Info<< "Creating turbulence model\n" << endl;
     autoPtr<compressible::RASModel> turbulence
     (

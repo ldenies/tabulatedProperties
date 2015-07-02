@@ -30,13 +30,13 @@ template<class Thermo>
 inline Foam::tabulatedTransport<Thermo>::tabulatedTransport
 (
     const Thermo& t,
-    const scalar mu,
-    const scalar Pr
+    const interpolation2DTable<scalar> muTable,
+    const interpolation2DTable<scalar> kappaTable
 )
 :
     Thermo(t),
-    muTable_(mu),
-    kappaTable_(kappa)
+    muTable_(muTable),
+    kappaTable_(kappaTable)
 {}
 
 

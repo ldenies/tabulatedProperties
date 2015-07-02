@@ -79,8 +79,8 @@ class tabulatedTransport
         inline tabulatedTransport
         (
             const Thermo& t,
-            const scalar mu,
-            const scalar Pr
+            const interpolation2DTable<scalar> muTable,
+            const interpolation2DTable<scalar> kappaTable
         );
 
 

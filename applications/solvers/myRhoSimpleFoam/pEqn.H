@@ -79,7 +79,7 @@
     }
 
 
-    #include "incompressible/continuityErrs.H"
+    #include "compressible/compressibleContinuityErrs.H"
 
     // Explicitly relax pressure for momentum corrector
     p.relax();
@@ -99,6 +99,9 @@
     rho = thermo.rho();
     rho = max(rho, rhoMin);
     rho = min(rho, rhoMax);
+
+    p = max(p, pMin);
+    p = min(p, pMax);
 
     if (!simple.transonic())
     {

@@ -1,4 +1,5 @@
 # 1 "files"
+# 1 "<built-in>"
 # 1 "<command-line>"
 
 
@@ -53,4 +54,4 @@
 # 1 "files"
 myRhoSimpleFoam.C
 
-EXE = $(FOAM_APPBIN)/myRhoSimpleFoam
+EXE = $(FOAM_USER_APPBIN)/myRhoSimpleFoam

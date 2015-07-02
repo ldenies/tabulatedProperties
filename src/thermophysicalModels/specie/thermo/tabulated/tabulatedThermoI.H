@@ -29,13 +29,13 @@ template<class equationOfState>
 inline Foam::tabulatedThermo<equationOfState>::tabulatedThermo
 (
     const equationOfState& st,
-    const scalar cp,
-    const scalar hf
+    const interpolation2DTable<scalar> cpTable,
+    const interpolation2DTable<scalar> hTable
 )
 :
     equationOfState(st),
-    cpTable_(cp),
-    hTable_(hf)
+    cpTable_(cpTable),
+    hTable_(hTable)
 {}
 
 

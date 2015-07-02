@@ -48,34 +48,6 @@ namespace Foam
 template<class Thermo> class tabulatedTransport;
 
 template<class Thermo>
-inline tabulatedTransport<Thermo> operator+
-(
-    const tabulatedTransport<Thermo>&,
-    const tabulatedTransport<Thermo>&
-);
-
-template<class Thermo>
-inline tabulatedTransport<Thermo> operator-
-(
-    const tabulatedTransport<Thermo>&,
-    const tabulatedTransport<Thermo>&
-);
-
-template<class Thermo>
-inline tabulatedTransport<Thermo> operator*
-(
-    const scalar,
-    const tabulatedTransport<Thermo>&
-);
-
-template<class Thermo>
-inline tabulatedTransport<Thermo> operator==
-(
-    const tabulatedTransport<Thermo>&,
-    const tabulatedTransport<Thermo>&
-);
-
-template<class Thermo>
 Ostream& operator<<
 (
     Ostream&,

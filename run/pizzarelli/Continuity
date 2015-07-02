@@ -1,0 +1,7 @@
+set logscale y
+set title "Continuity errors"
+set ylabel 'Error'
+set xlabel 'Iteration'
+plot "< cat log.myRhoSimpleFoam | grep 'time step continuity errors : sum local' | cut -d' ' -f9 | tr -d ','" title 'Continuity' with lines
+pause 1
+reread

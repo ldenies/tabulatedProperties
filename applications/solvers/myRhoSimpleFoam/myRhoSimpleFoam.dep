@@ -695,7 +695,7 @@ myRhoSimpleFoam.dep: $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/initContinuity
 myRhoSimpleFoam.dep: UEqn.H
 myRhoSimpleFoam.dep: EEqn.H
 myRhoSimpleFoam.dep: pEqn.H
-myRhoSimpleFoam.dep: $(WM_PROJECT_DIR)/src/finiteVolume/cfdTools/incompressible/continuityErrs.H
+myRhoSimpleFoam.dep: $(WM_PROJECT_DIR)/src/finiteVolume/cfdTools/compressible/compressibleContinuityErrs.H
 $(OBJECTS_DIR)/myRhoSimpleFoam.o: $(EXE_DEP)
 $(OBJECTS_DIR)/myRhoSimpleFoam.o:
 	@SOURCE_DIR=.

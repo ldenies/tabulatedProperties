@@ -1,1 +1,1 @@
-EXE = $(FOAM_APPBIN)/myRhoSimpleFoam
+EXE = $(FOAM_USER_APPBIN)/myRhoSimpleFoam

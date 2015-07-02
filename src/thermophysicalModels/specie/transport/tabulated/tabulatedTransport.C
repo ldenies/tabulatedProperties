@@ -43,8 +43,8 @@ template<class Thermo>
 Foam::tabulatedTransport<Thermo>::tabulatedTransport(const dictionary& dict)
 :
     Thermo(dict),
-    muTable_ ("/home/luka/mu"),   
-    kappaTable_ ("/home/luka/kappa")
+    muTable_ ("constant/mu"),   
+    kappaTable_ ("constant/kappa")
 {}
 
 

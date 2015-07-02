@@ -15,8 +15,7 @@ Requires a table in pressure and temperature for:
 - enthalpy (h)
 - viscosity (mu)
 - thermal conductivity (kappa, alphah)
+These should be located in the constant directory
 
-To be added soon:
-- Tutorial case
-- Support for putting property tables in case/constant directory instead of root
+A tutorial case is located in the run directory
 

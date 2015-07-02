@@ -83,21 +83,21 @@ inline Foam::scalar Foam::tabulated<Specie>::rho(scalar p, scalar T) const
 
 
 template<class Specie>
-inline Foam::scalar Foam::tabulated<Specie>::psi(scalar, scalar T) const
+inline Foam::scalar Foam::tabulated<Specie>::psi(scalar p, scalar T) const
 {
     return rhoTable_(p,T)/p;
 }
 
 
 template<class Specie>
-inline Foam::scalar Foam::tabulated<Specie>::Z(scalar, scalar) const
+inline Foam::scalar Foam::tabulated<Specie>::Z(scalar p, scalar T) const
 {
     return p/(rhoTable_(p,T)*this->R()*T);
 }
 
 
 template<class Specie>
-inline Foam::scalar Foam::tabulated<Specie>::cpMcv(scalar, scalar) const
+inline Foam::scalar Foam::tabulated<Specie>::cpMcv(scalar p, scalar T) const
 {
     return cpMcvTable_(p,T);
 }

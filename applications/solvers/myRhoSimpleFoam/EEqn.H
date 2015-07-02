@@ -10,6 +10,8 @@
           : fvc::div(phi, volScalarField("K", 0.5*magSqr(U)))
         )
       - fvm::laplacian(turbulence->alphaEff(), he)
+      + fvc::div(turbulence->devRhoReff() & U)
+      + fvc::div(p*U)
      ==
         fvOptions(rho, he)
     );
@@ -23,4 +25,6 @@
     fvOptions.correct(he);
 
     thermo.correct();
+
+    
 }

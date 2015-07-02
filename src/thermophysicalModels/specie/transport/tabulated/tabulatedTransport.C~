@@ -44,7 +44,7 @@ Foam::tabulatedTransport<Thermo>::tabulatedTransport(const dictionary& dict)
 :
     Thermo(dict),
     muTable_ ("/home/luka/mu"),   
-    muTable_ ("/home/luka/kappa")
+    kappaTable_ ("/home/luka/kappa")
 {}
 
 

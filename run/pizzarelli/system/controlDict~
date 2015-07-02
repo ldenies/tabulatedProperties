@@ -1,0 +1,851 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+libs (
+      "libOpenFOAM.so"
+      "libsimpleSwakFunctionObjects.so"
+      "libswakFunctionObjects.so"
+      "libgroovyBC.so"
+     );
+
+application     myRhoSimpleFoam;
+
+startFrom       latestTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         4000;
+
+deltaT          1;
+
+writeControl    timeStep;
+
+writeInterval   100;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  6;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
+{
+    plane0.000340909090909
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.000340909090909;
+	    surface {
+		    type	plane;
+		    basePoint	(0.000340909090909 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00102272727273
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00102272727273;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00102272727273 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00170454545455
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00170454545455;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00170454545455 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00238636363636
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00238636363636;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00238636363636 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00306818181818
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00306818181818;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00306818181818 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00375
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00375;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00375 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00443181818182
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00443181818182;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00443181818182 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00511363636364
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00511363636364;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00511363636364 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00579545454545
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00579545454545;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00579545454545 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00647727272727
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00647727272727;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00647727272727 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00715909090909
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00715909090909;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00715909090909 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00784090909091
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00784090909091;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00784090909091 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00852272727273
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00852272727273;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00852272727273 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00920454545455
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00920454545455;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00920454545455 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.00988636363636
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.00988636363636;
+	    surface {
+		    type	plane;
+		    basePoint	(0.00988636363636 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0105681818182
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0105681818182;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0105681818182 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.01125
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.01125;
+	    surface {
+		    type	plane;
+		    basePoint	(0.01125 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0119318181818
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0119318181818;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0119318181818 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0126136363636
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0126136363636;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0126136363636 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0132954545455
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0132954545455;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0132954545455 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0139772727273
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0139772727273;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0139772727273 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0146590909091
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0146590909091;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0146590909091 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0153409090909
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0153409090909;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0153409090909 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0160227272727
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0160227272727;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0160227272727 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0167045454545
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0167045454545;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0167045454545 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0173863636364
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0173863636364;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0173863636364 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0180681818182
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0180681818182;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0180681818182 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.01875
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.01875;
+	    surface {
+		    type	plane;
+		    basePoint	(0.01875 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0194318181818
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0194318181818;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0194318181818 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0201136363636
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0201136363636;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0201136363636 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0207954545455
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0207954545455;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0207954545455 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0214772727273
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0214772727273;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0214772727273 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0221590909091
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0221590909091;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0221590909091 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0228409090909
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0228409090909;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0228409090909 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0235227272727
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0235227272727;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0235227272727 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0242045454545
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0242045454545;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0242045454545 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0248863636364
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0248863636364;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0248863636364 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0255681818182
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0255681818182;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0255681818182 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.02625
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.02625;
+	    surface {
+		    type	plane;
+		    basePoint	(0.02625 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0269318181818
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0269318181818;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0269318181818 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0276136363636
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0276136363636;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0276136363636 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0282954545455
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0282954545455;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0282954545455 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0289772727273
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0289772727273;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0289772727273 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+    plane0.0296590909091
+    {
+	    type	swakExpression;
+	    outputControl	timeStep;
+	    valueType	surface;
+	    surfaceName	cutPlane0.0296590909091;
+	    surface {
+		    type	plane;
+		    basePoint	(0.0296590909091 0 0);
+		    normalVector	(1 0 0);
+		    interpolate	false;
+	    }
+	    verbose	true;
+	    expression	"sum(rho*U.x*T*area())/sum(rho*U.x*area())";
+	    accumulations (
+		    average
+	    );
+    }
+  
+}; 
+
+// ************************************************************************* //

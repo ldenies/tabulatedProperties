@@ -71,7 +71,7 @@ Foam::Ostream& Foam::operator<<
 )
 {
     os  << static_cast<const equationOfState&>(ct) << tab
-        << ct.Cp_/ct.W() << tab << ct.Hf_/ct.W();
+        << ct.cpTable << tab << ct.hTable;
 
     os.check("Ostream& operator<<(Ostream& os, const tabulatedThermo& ct)");
     return os;
