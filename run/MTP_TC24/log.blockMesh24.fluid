@@ -1,0 +1,73 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : blockMesh24 -region fluid
+Date   : Oct 27 2015
+Time   : 11:35:44
+Host   : "hpc12"
+PID    : 31851
+Case   : /home/twandejong/MTP_TC24/kowf_TC24
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Generating mesh for region fluid
+Creating block mesh from
+    "/home/twandejong/MTP_TC24/kowf_TC24/constant/fluid/polyMesh/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.001
+    Block 0 cell size :
+        i : 0.000105457 .. 0.000105457
+        j : 5e-05 .. 5e-05
+        k : 4.96576e-05 .. 4.9656e-05
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0.017 0.0625 0.03) (0.309 0.063 0.033)
+  nPoints: 119691
+  nCells: 105000
+  nFaces: 329300
+  nInternalFaces: 300700
+----------------
+Patches
+----------------
+  patch 0 (start: 300700 size: 300) name: inlet
+  patch 1 (start: 301000 size: 300) name: outlet
+  patch 2 (start: 301300 size: 10500) name: middlePlane
+  patch 3 (start: 311800 size: 17500) name: solidContact
+
+End
+

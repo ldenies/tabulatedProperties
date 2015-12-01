@@ -79,7 +79,7 @@ makeThermo
     pureMixture,
     tabulatedTransport,
     sensibleEnthalpy,
-    hConstThermo,
+    tabulatedThermo,
     tabulated,
     specie
 );

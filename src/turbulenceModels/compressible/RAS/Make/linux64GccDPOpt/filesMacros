@@ -1,0 +1,9 @@
+wallFunctions = derivedFvPatchFields/wallFunctions
+alphatWallFunctions = $(wallFunctions)/alphatWallFunctions
+mutWallFunctions = $(wallFunctions)/mutWallFunctions
+epsilonWallFunctions = $(wallFunctions)/epsilonWallFunctions
+fWallFunctions = $(wallFunctions)/fWallFunctions
+omegaWallFunctions = $(wallFunctions)/omegaWallFunctions
+kqRWallFunctions = $(wallFunctions)/kqRWallFunctions
+v2WallFunctions = $(wallFunctions)/v2WallFunctions
+LIB = $(FOAM_USER_LIBBIN)/libcompressibleRASModels

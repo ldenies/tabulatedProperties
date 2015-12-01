@@ -1,0 +1,12 @@
+LOCAL_OBJECTS = \
+turbulenceModel.o\
+laminar.o\
+turbulentHeatFluxTemperatureFvPatchScalarField.o\
+temperatureCoupledBase.o\
+turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.o\
+thermalBaffle1DFvPatchScalarFields.o\
+totalFlowRateAdvectiveDiffusiveFvPatchScalarField.o\
+turbulentTemperatureRadCoupledMixedFvPatchScalarField.o\
+externalWallHeatFluxTemperatureFvPatchScalarField.o\
+wallHeatTransferFvPatchScalarField.o\
+externalCoupledTemperatureMixedFvPatchScalarField.o

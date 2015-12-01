@@ -1,0 +1,737 @@
+Working directory is /home/twandejong/MTP_TC24/kowf_TC24
+Running on host n12-54
+Time is Wed Oct 28 13:29:58 CET 2015
+Directory is /home/twandejong/MTP_TC24/kowf_TC24
+[n12-54:30319] 7 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[n12-54:30319] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : reconstructPar -region fluid
+Date   : Oct 28 2015
+Time   : 20:23:33
+Host   : "n12-54"
+PID    : 3822
+Case   : /home/twandejong/MTP_TC24/kowf_TC24
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Reconstructing fields for mesh fluid
+
+Time = 1000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 2000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 3000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 4000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 5000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 6000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 7000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 8000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 9000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 10000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 11000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 12000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 13000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 14000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 15000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alphat
+        mut
+        rho
+        p
+        T
+        k
+        omega
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+End.
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : reconstructPar -region solid
+Date   : Oct 28 2015
+Time   : 20:24:31
+Host   : "n12-54"
+PID    : 3835
+Case   : /home/twandejong/MTP_TC24/kowf_TC24
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Reconstructing fields for mesh solid
+
+Time = 1000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 2000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 3000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 4000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 5000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 6000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 7000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 8000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 9000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 10000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 11000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 12000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 13000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 14000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 15000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        p
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+End.
+

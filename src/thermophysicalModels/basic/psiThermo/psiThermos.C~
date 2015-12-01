@@ -29,15 +29,20 @@ License
 #include "specie.H"
 #include "perfectGas.H"
 #include "PengRobinsonGas.H"
+#include "tabulated.H"
+
 #include "hConstThermo.H"
 #include "eConstThermo.H"
 #include "janafThermo.H"
 #include "sensibleEnthalpy.H"
 #include "sensibleInternalEnergy.H"
 #include "thermo.H"
+#include "tabulatedThermo.H"
+
 
 #include "constTransport.H"
 #include "sutherlandTransport.H"
+#include "tabulatedTransport.H"
 
 #include "hPolynomialThermo.H"
 #include "polynomialTransport.H"

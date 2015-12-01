@@ -1,0 +1,73 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : blockMesh24
+Date   : Oct 28 2015
+Time   : 16:08:54
+Host   : "n12-19"
+PID    : 49699
+Case   : /home/ldenies/numValidation/fine
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/home/ldenies/numValidation/fine/constant/polyMesh/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.001
+    Block 0 cell size :
+        i : 0.0009375 .. 0.0009375
+        j : 9.45807e-06 .. 1.89161e-07
+        k : 5.10873e-07 .. 5.10857e-07
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (0.03 5e-05 0.0008)
+  nPoints: 42273
+  nCells: 38400
+  nFaces: 118960
+  nInternalFaces: 111440
+----------------
+Patches
+----------------
+  patch 0 (start: 111440 size: 1200) name: inlet
+  patch 1 (start: 112640 size: 1200) name: outlet
+  patch 2 (start: 113840 size: 1920) name: middlePlane
+  patch 3 (start: 115760 size: 1920) name: sideWall
+  patch 4 (start: 117680 size: 640) name: hot
+  patch 5 (start: 118320 size: 640) name: cold
+
+End
+

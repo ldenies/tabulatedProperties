@@ -1,0 +1,1 @@
+funkySetFields -time 0 -field p -region fluid -expression "110e5-pos().x*(110e5-102.5e5)/(309e-3)" -keepPatches

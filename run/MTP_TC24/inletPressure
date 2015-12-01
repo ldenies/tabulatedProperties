@@ -1,0 +1,6 @@
+set title "Inlet pressure"
+set ylabel 'Pressure'
+set xlabel 'Iteration'
+plot "< cat log.myConjugateFoam | grep 'Expression inletPressure :  average' | cut -d'=' -f2 | tr -d ','" title 'P_in' with lines
+pause 1
+reread

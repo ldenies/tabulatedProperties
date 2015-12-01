@@ -1,7 +1,7 @@
 set title "Bulk temperature"
 set ylabel 'Bulk temperature'
 set xlabel 'Iteration'
-plot "< cat log.myRhoSimpleFoam | grep 'Expression plane0.0296' | cut -d'=' -f2" title 'T_bulk' with lines
+plot "< cat log.myFluidFoam | grep 'Expression outletTemperature' | cut -d'=' -f2" title 'T_bulk' with lines
 pause 1
 reread
 

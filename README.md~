@@ -1,8 +1,7 @@
 # tabulatedProperties
 
-
 By Luka Denies
-MSc student at Delft University of Technology
+Delft University of Technology (MSc student)
 
 OpenFOAM addition to use tabulated properties for thermophysical properties
 Implemented:
@@ -11,12 +10,17 @@ Implemented:
 - transport (mu, kappa, alphah)
 
 Requires a table in pressure and temperature for:
-- density (rho, psi, Z)
-- specific heat (cp, alphah)
+- density (rho)
+- specific heat (cp)
+- specific heat difference (cpMcv)
 - enthalpy (h)
 - viscosity (mu)
-- thermal conductivity (kappa, alphah)
+- thermal conductivity (kappa)
 These should be located in the constant directory
 
-A tutorial case is located in the run directory
+Two tutorial cases are located in the run directory:
+- "pizzarelli" shows a numerical validation 
+    (described in Sec. 5.1 of the MSc thesis by Luka Denies)
+- "MTP_TC24" shows an experimental validation 
+    (described in Sec. 5.3 of the MSc thesis by Luka Denies)
 

@@ -1,0 +1,113 @@
+# 1 "files"
+# 1 "<built-in>"
+# 1 "<command-line>"
+
+
+
+
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+
+# 17 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 4 "<command-line>" 2
+# 1 "files"
+
+RASModel/RASModel.C
+laminar/laminar.C
+kEpsilon/kEpsilon.C
+RNGkEpsilon/RNGkEpsilon.C
+LaunderSharmaKE/LaunderSharmaKE.C
+LRR/LRR.C
+LaunderGibsonRSTM/LaunderGibsonRSTM.C
+realizableKE/realizableKE.C
+SpalartAllmaras/SpalartAllmaras.C
+roughSpalartAllmaras/roughSpalartAllmaras.C
+kOmegaSST/kOmegaSST.C
+v2f/v2f.C
+
+
+wallFunctions = derivedFvPatchFields/wallFunctions
+
+alphatWallFunctions = $(wallFunctions)/alphatWallFunctions
+$(alphatWallFunctions)/alphatWallFunction/alphatWallFunctionFvPatchScalarField.C
+$(alphatWallFunctions)/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.C
+
+mutWallFunctions = $(wallFunctions)/mutWallFunctions
+$(mutWallFunctions)/mutWallFunction/mutWallFunctionFvPatchScalarField.C
+
+$(mutWallFunctions)/mutkWallFunction/mutkWallFunctionFvPatchScalarField.C
+$(mutWallFunctions)/mutkRoughWallFunction/mutkRoughWallFunctionFvPatchScalarField.C
+
+$(mutWallFunctions)/mutUWallFunction/mutUWallFunctionFvPatchScalarField.C
+$(mutWallFunctions)/mutURoughWallFunction/mutURoughWallFunctionFvPatchScalarField.C
+$(mutWallFunctions)/mutUSpaldingWallFunction/mutUSpaldingWallFunctionFvPatchScalarField.C
+$(mutWallFunctions)/mutLowReWallFunction/mutLowReWallFunctionFvPatchScalarField.C
+
+epsilonWallFunctions = $(wallFunctions)/epsilonWallFunctions
+$(epsilonWallFunctions)/epsilonWallFunction/epsilonWallFunctionFvPatchScalarField.C
+$(epsilonWallFunctions)/epsilonLowReWallFunction/epsilonLowReWallFunctionFvPatchScalarField.C
+
+fWallFunctions = $(wallFunctions)/fWallFunctions
+$(fWallFunctions)/fWallFunction/fWallFunctionFvPatchScalarField.C
+
+omegaWallFunctions = $(wallFunctions)/omegaWallFunctions
+$(omegaWallFunctions)/omegaWallFunction/omegaWallFunctionFvPatchScalarField.C
+$(omegaWallFunctions)/omegaRoughWallFunction/omegaRoughWallFunctionFvPatchScalarField.C
+
+kqRWallFunctions = $(wallFunctions)/kqRWallFunctions
+$(kqRWallFunctions)/kqRWallFunction/kqRWallFunctionFvPatchFields.C
+$(kqRWallFunctions)/kLowReWallFunction/kLowReWallFunctionFvPatchScalarField.C
+$(kqRWallFunctions)/kRoughWallFunction/kRoughWallFunctionFvPatchScalarField.C
+
+v2WallFunctions = $(wallFunctions)/v2WallFunctions
+$(v2WallFunctions)/v2WallFunction/v2WallFunctionFvPatchScalarField.C
+
+
+derivedFvPatchFields/roughWallSA/roughWallSAFvPatchScalarField.C
+derivedFvPatchFields/convectiveHeatTransfer/convectiveHeatTransferFvPatchScalarField.C
+derivedFvPatchFields/turbulentMixingLengthDissipationRateInlet/turbulentMixingLengthDissipationRateInletFvPatchScalarField.C
+derivedFvPatchFields/turbulentMixingLengthFrequencyInlet/turbulentMixingLengthFrequencyInletFvPatchScalarField.C
+backwardsCompatibility/wallFunctions/backwardsCompatibilityWallFunctions.C
+
+LIB = $(FOAM_USER_LIBBIN)/libcompressibleRASModels

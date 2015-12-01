@@ -614,9 +614,10 @@ calcExtraVars.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/scalarRange.H
 calcExtraVars.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/basic/lnInclude/basicThermo.H
 calcExtraVars.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordIOList.H
 calcExtraVars.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/basic/lnInclude/basicThermoTemplates.C
+calcExtraVars.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/addRegionOption.H
 calcExtraVars.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/setRootCase.H
 calcExtraVars.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/createTime.H
-calcExtraVars.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/createMesh.H
+calcExtraVars.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/createNamedMesh.H
 $(OBJECTS_DIR)/calcExtraVars.o: $(EXE_DEP)
 $(OBJECTS_DIR)/calcExtraVars.o:
 	@SOURCE_DIR=.

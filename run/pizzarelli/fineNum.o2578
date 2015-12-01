@@ -1,0 +1,7 @@
+Running blockMesh24 on /home/ldenies/numValidation/fine
+Running decomposePar on /home/ldenies/numValidation/fine
+Running myFluidFoam on /home/ldenies/numValidation/fine
+Running reconstructPar on /home/ldenies/numValidation/fine
+Running calcExtraVars on /home/ldenies/numValidation/fine
+Running myWallHeatFlux on /home/ldenies/numValidation/fine
+Running yPlus on /home/ldenies/numValidation/fine

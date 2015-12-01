@@ -487,10 +487,10 @@ psiThermo/psiThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModel
 psiThermo/psiThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/PengRobinsonGasI.H
 psiThermo/psiThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/PengRobinsonGas.C
 psiThermo/psiThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/tabulated.H
-psiThermo/psiThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/interpolation2DTable.H
+psiThermo/psiThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/interpolation2DTable.H
 psiThermo/psiThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tableReader.H
 psiThermo/psiThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tableReader.C
-psiThermo/psiThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/interpolation2DTable.C
+psiThermo/psiThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/interpolation2DTable.C
 psiThermo/psiThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IFstream.H
 psiThermo/psiThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/openFoamTableReader.H
 psiThermo/psiThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/openFoamTableReader.C

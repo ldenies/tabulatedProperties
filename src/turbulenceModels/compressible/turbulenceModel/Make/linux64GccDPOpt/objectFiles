@@ -1,0 +1,12 @@
+OBJECTS = \
+$(OBJECTS_DIR)/turbulenceModel.o\
+$(OBJECTS_DIR)/laminar.o\
+$(OBJECTS_DIR)/turbulentHeatFluxTemperatureFvPatchScalarField.o\
+$(OBJECTS_DIR)/temperatureCoupledBase.o\
+$(OBJECTS_DIR)/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.o\
+$(OBJECTS_DIR)/thermalBaffle1DFvPatchScalarFields.o\
+$(OBJECTS_DIR)/totalFlowRateAdvectiveDiffusiveFvPatchScalarField.o\
+$(OBJECTS_DIR)/turbulentTemperatureRadCoupledMixedFvPatchScalarField.o\
+$(OBJECTS_DIR)/externalWallHeatFluxTemperatureFvPatchScalarField.o\
+$(OBJECTS_DIR)/wallHeatTransferFvPatchScalarField.o\
+$(OBJECTS_DIR)/externalCoupledTemperatureMixedFvPatchScalarField.o

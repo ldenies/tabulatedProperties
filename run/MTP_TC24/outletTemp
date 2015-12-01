@@ -1,0 +1,6 @@
+set title "Exit bulk temperature"
+set ylabel 'Temperature'
+set xlabel 'Iteration'
+plot "< cat log.myConjugateFoam | grep 'Expression planeExit :  average' | cut -d'=' -f2 | tr -d ','" title 'T_f,bulk' with lines
+pause 1
+reread

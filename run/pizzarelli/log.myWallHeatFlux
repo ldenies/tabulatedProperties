@@ -1,0 +1,1110 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : myWallHeatFlux
+Date   : Oct 28 2015
+Time   : 17:42:55
+Host   : "n12-19"
+PID    : 51013
+Case   : /home/ldenies/numValidation/fine
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Time = 0
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 3779.71
+hot 255.354
+cold 0
+
+Time = 100
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 390.153
+hot 37.5564
+cold 0
+
+Time = 200
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 426.412
+hot 31.2659
+cold 0
+
+Time = 300
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 408.112
+hot 25.9905
+cold 0
+
+Time = 400
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 369.401
+hot 21.8516
+cold 0
+
+Time = 500
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 329.181
+hot 18.6849
+cold 0
+
+Time = 600
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 294.727
+hot 16.297
+cold 0
+
+Time = 700
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 268.383
+hot 14.5995
+cold 0
+
+Time = 800
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 249.82
+hot 13.4413
+cold 0
+
+Time = 900
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 237.274
+hot 12.6606
+cold 0
+
+Time = 1000
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 228.869
+hot 12.1409
+cold 0
+
+Time = 1100
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 223.274
+hot 11.8003
+cold 0
+
+Time = 1200
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 219.566
+hot 11.5814
+cold 0
+
+Time = 1300
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 217.115
+hot 11.4446
+cold 0
+
+Time = 1400
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 215.498
+hot 11.359
+cold 0
+
+Time = 1500
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 214.434
+hot 11.3066
+cold 0
+
+Time = 1600
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 213.736
+hot 11.2744
+cold 0
+
+Time = 1700
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 213.281
+hot 11.2538
+cold 0
+
+Time = 1800
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.984
+hot 11.2409
+cold 0
+
+Time = 1900
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.791
+hot 11.2327
+cold 0
+
+Time = 2000
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.665
+hot 11.2276
+cold 0
+
+Time = 2100
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.583
+hot 11.2242
+cold 0
+
+Time = 2200
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.53
+hot 11.2218
+cold 0
+
+Time = 2300
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.495
+hot 11.2204
+cold 0
+
+Time = 2400
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.471
+hot 11.2205
+cold 0
+
+Time = 2500
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.455
+hot 11.2212
+cold 0
+
+Time = 2600
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.445
+hot 11.2215
+cold 0
+
+Time = 2700
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.438
+hot 11.2216
+cold 0
+
+Time = 2800
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.435
+hot 11.2216
+cold 0
+
+Time = 2900
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.432
+hot 11.2216
+cold 0
+
+Time = 3000
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading/calculating face flux field phi
+
+Selecting turbulence model type RASModel
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+
+Wall heat fluxes [W]
+sideWall 212.431
+hot 11.2216
+cold 0
+
+End

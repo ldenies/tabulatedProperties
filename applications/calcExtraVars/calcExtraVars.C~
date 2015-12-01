@@ -34,6 +34,7 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
 
+#   include "addRegionOption.H"    
 #   include "setRootCase.H"
 #   include "createTime.H"
 
@@ -71,7 +72,7 @@ int main(int argc, char *argv[])
                 IOobject::NO_READ,
                 IOobject::AUTO_WRITE
             ),
-            thermo.cpv()
+            thermo.Cp()
         );
 
         Cp.write();

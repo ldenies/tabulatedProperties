@@ -1,17 +1,24 @@
 #!/bin/sh
-cd ${0%/*} || exit 1    # run from this directory
+#PBS -N fineNum
+#PBS -l nodes=1:ppn=4
+#PBS -j oe
 
-# Source tutorial run functions
+cd $PBS_O_WORKDIR
+
+module load openfoam/2.4.0
 . $WM_PROJECT_DIR/bin/tools/RunFunctions
 
 # Set application name
 application=`getApplication`
 
-runApplication blockMeshDG
-./setPressure
-runApplication $application
-runApplication calcExtraVars
-runApplication wallHeatFlux
+runApplication blockMesh24
+runApplication decomposePar
 
+runApplication $application
+
+runApplication reconstructPar
+runApplication calcExtraVars
+runApplication myWallHeatFlux
+runApplication yPlus -compressible
 
 # ----------------------------------------------------------------- end-of-file

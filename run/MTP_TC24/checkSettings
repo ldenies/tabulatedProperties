@@ -1,0 +1,8 @@
+nedit 0.org/fluid/* -geometry 800x600 &
+nedit 0.org/solid/* -geometry 800x600 &
+nedit constant/fluid/polyMesh/blockMeshDict -geometry 800x600  &
+nedit constant/solid/polyMesh/blockMeshDict -geometry 800x600  &
+nedit constant/fluid/RASProperties -geometry 800x600  &
+nedit system/controlDict -geometry 800x600  &
+nedit system/fluid/* -geometry 800x600  &
+nedit system/solid/* -geometry 800x600  &

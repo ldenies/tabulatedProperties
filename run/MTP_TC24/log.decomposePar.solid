@@ -1,0 +1,128 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : decomposePar -region solid
+Date   : Oct 27 2015
+Time   : 11:36:39
+Host   : "hpc12"
+PID    : 31919
+Case   : /home/twandejong/MTP_TC24/kowf_TC24
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh solid
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod simple
+
+Finished decomposition in 0.53 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 50400
+    Number of faces shared with processor 1 = 1168
+    Number of processor patches = 1
+    Number of processor faces = 1168
+    Number of boundary faces = 9188
+
+Processor 1
+    Number of cells = 50400
+    Number of faces shared with processor 0 = 1168
+    Number of faces shared with processor 2 = 1180
+    Number of processor patches = 2
+    Number of processor faces = 2348
+    Number of boundary faces = 8048
+
+Processor 2
+    Number of cells = 50400
+    Number of faces shared with processor 1 = 1180
+    Number of faces shared with processor 3 = 1193
+    Number of processor patches = 2
+    Number of processor faces = 2373
+    Number of boundary faces = 8061
+
+Processor 3
+    Number of cells = 50400
+    Number of faces shared with processor 2 = 1193
+    Number of faces shared with processor 4 = 1152
+    Number of processor patches = 2
+    Number of processor faces = 2345
+    Number of boundary faces = 8055
+
+Processor 4
+    Number of cells = 50400
+    Number of faces shared with processor 3 = 1152
+    Number of faces shared with processor 5 = 1168
+    Number of processor patches = 2
+    Number of processor faces = 2320
+    Number of boundary faces = 8036
+
+Processor 5
+    Number of cells = 50400
+    Number of faces shared with processor 4 = 1168
+    Number of faces shared with processor 6 = 1180
+    Number of processor patches = 2
+    Number of processor faces = 2348
+    Number of boundary faces = 8048
+
+Processor 6
+    Number of cells = 50400
+    Number of faces shared with processor 5 = 1180
+    Number of faces shared with processor 7 = 1193
+    Number of processor patches = 2
+    Number of processor faces = 2373
+    Number of boundary faces = 8061
+
+Processor 7
+    Number of cells = 50400
+    Number of faces shared with processor 6 = 1193
+    Number of processor patches = 1
+    Number of processor faces = 1193
+    Number of boundary faces = 9207
+
+Number of processor faces = 8234
+Max number of cells = 50400 (0% above average 50400)
+Max number of processor patches = 2 (14.2857% above average 1.75)
+Max number of faces between processors = 2373 (15.2781% above average 2058.5)
+
+Time = 0
+--> FOAM Warning : 
+    From function Field<Type>::Field(const word& keyword, const dictionary&, const label)
+    in file /opt/ud/OpenFOAM-2.4.0/OpenFOAM-2.4.0/src/OpenFOAM/lnInclude/Field.C at line 318
+    Reading "/home/twandejong/MTP_TC24/kowf_TC24/0/solid/T.boundaryField.hot" from line 45 to line 50
+    expected keyword 'uniform' or 'nonuniform', assuming deprecated Field format from Foam version 2.0.
+
+Processor 0: field transfer
+Processor 1: field transfer
+Processor 2: field transfer
+Processor 3: field transfer
+Processor 4: field transfer
+Processor 5: field transfer
+Processor 6: field transfer
+Processor 7: field transfer
+
+End.
+

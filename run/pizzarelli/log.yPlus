@@ -1,0 +1,1236 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : yPlus -compressible
+Date   : Oct 28 2015
+Time   : 17:45:06
+Host   : "n12-19"
+PID    : 51042
+Case   : /home/ldenies/numValidation/fine
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Time = 0
+Calculating wall distance
+
+Writing wall distance to field y
+
+Reading field U
+
+    no rho field
+Writing yPlus to field yPlus
+
+Time = 100
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.150905 max: 2.18354 average: 0.77472
+
+Patch 4 named hot y+ : min: 0.247533 max: 1.57279 average: 1.04023
+
+Patch 5 named cold y+ : min: 0.257555 max: 2.18738 average: 1.39726
+
+Writing yPlus to field yPlus
+
+Time = 200
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.147594 max: 2.65274 average: 0.909334
+
+Patch 4 named hot y+ : min: 0.2425 max: 1.72958 average: 1.12023
+
+Patch 5 named cold y+ : min: 0.274183 max: 2.54108 average: 1.57478
+
+Writing yPlus to field yPlus
+
+Time = 300
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.149548 max: 2.94973 average: 0.986098
+
+Patch 4 named hot y+ : min: 0.245713 max: 1.79877 average: 1.1836
+
+Patch 5 named cold y+ : min: 0.289496 max: 2.68266 average: 1.69274
+
+Writing yPlus to field yPlus
+
+Time = 400
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.144285 max: 3.19559 average: 1.02842
+
+Patch 4 named hot y+ : min: 0.237065 max: 1.88835 average: 1.23372
+
+Patch 5 named cold y+ : min: 0.292502 max: 2.80067 average: 1.77775
+
+Writing yPlus to field yPlus
+
+Time = 500
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.138118 max: 3.43697 average: 1.04914
+
+Patch 4 named hot y+ : min: 0.226932 max: 2.08253 average: 1.27456
+
+Patch 5 named cold y+ : min: 0.292629 max: 3.05685 average: 1.83863
+
+Writing yPlus to field yPlus
+
+Time = 600
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.13306 max: 3.67272 average: 1.0554
+
+Patch 4 named hot y+ : min: 0.218621 max: 2.32784 average: 1.30468
+
+Patch 5 named cold y+ : min: 0.291118 max: 3.34146 average: 1.88017
+
+Writing yPlus to field yPlus
+
+Time = 700
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.128816 max: 3.87408 average: 1.05329
+
+Patch 4 named hot y+ : min: 0.21165 max: 2.55265 average: 1.32481
+
+Patch 5 named cold y+ : min: 0.285072 max: 3.63778 average: 1.90705
+
+Writing yPlus to field yPlus
+
+Time = 800
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.125501 max: 4.02346 average: 1.04733
+
+Patch 4 named hot y+ : min: 0.206202 max: 2.72008 average: 1.3367
+
+Patch 5 named cold y+ : min: 0.27418 max: 3.92398 average: 1.92388
+
+Writing yPlus to field yPlus
+
+Time = 900
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.123013 max: 4.12835 average: 1.04024
+
+Patch 4 named hot y+ : min: 0.202114 max: 2.84185 average: 1.34288
+
+Patch 5 named cold y+ : min: 0.265552 max: 4.18549 average: 1.93434
+
+Writing yPlus to field yPlus
+
+Time = 1000
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.12122 max: 4.19917 average: 1.03344
+
+Patch 4 named hot y+ : min: 0.199168 max: 2.92585 average: 1.34567
+
+Patch 5 named cold y+ : min: 0.259061 max: 4.41058 average: 1.94111
+
+Writing yPlus to field yPlus
+
+Time = 1100
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.119956 max: 4.24417 average: 1.0276
+
+Patch 4 named hot y+ : min: 0.197092 max: 2.98178 average: 1.34665
+
+Patch 5 named cold y+ : min: 0.254311 max: 4.59696 average: 1.946
+
+Writing yPlus to field yPlus
+
+Time = 1200
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.11908 max: 4.27036 average: 1.02296
+
+Patch 4 named hot y+ : min: 0.195652 max: 3.01847 average: 1.34678
+
+Patch 5 named cold y+ : min: 0.250899 max: 4.7486 average: 1.95009
+
+Writing yPlus to field yPlus
+
+Time = 1300
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.118485 max: 4.28436 average: 1.01943
+
+Patch 4 named hot y+ : min: 0.194674 max: 3.04216 average: 1.34657
+
+Patch 5 named cold y+ : min: 0.248517 max: 4.87066 average: 1.95383
+
+Writing yPlus to field yPlus
+
+Time = 1400
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.118077 max: 4.29117 average: 1.01685
+
+Patch 4 named hot y+ : min: 0.194005 max: 3.05745 average: 1.34627
+
+Patch 5 named cold y+ : min: 0.246883 max: 4.96812 average: 1.95736
+
+Writing yPlus to field yPlus
+
+Time = 1500
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117807 max: 4.29395 average: 1.01501
+
+Patch 4 named hot y+ : min: 0.193561 max: 3.06725 average: 1.34599
+
+Patch 5 named cold y+ : min: 0.245784 max: 5.04522 average: 1.9606
+
+Writing yPlus to field yPlus
+
+Time = 1600
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117624 max: 4.29468 average: 1.01372
+
+Patch 4 named hot y+ : min: 0.19326 max: 3.07356 average: 1.34577
+
+Patch 5 named cold y+ : min: 0.24503 max: 5.10572 average: 1.96349
+
+Writing yPlus to field yPlus
+
+Time = 1700
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117504 max: 4.29444 average: 1.01284
+
+Patch 4 named hot y+ : min: 0.193064 max: 3.07758 average: 1.3456
+
+Patch 5 named cold y+ : min: 0.244523 max: 5.15262 average: 1.96596
+
+Writing yPlus to field yPlus
+
+Time = 1800
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117425 max: 4.29386 average: 1.01223
+
+Patch 4 named hot y+ : min: 0.192933 max: 3.08019 average: 1.34548
+
+Patch 5 named cold y+ : min: 0.244184 max: 5.18858 average: 1.96802
+
+Writing yPlus to field yPlus
+
+Time = 1900
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117372 max: 4.29321 average: 1.01182
+
+Patch 4 named hot y+ : min: 0.192846 max: 3.08188 average: 1.3454
+
+Patch 5 named cold y+ : min: 0.243958 max: 5.21588 average: 1.96969
+
+Writing yPlus to field yPlus
+
+Time = 2000
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117336 max: 4.2926 average: 1.01155
+
+Patch 4 named hot y+ : min: 0.192787 max: 3.08298 average: 1.34535
+
+Patch 5 named cold y+ : min: 0.243807 max: 5.23637 average: 1.971
+
+Writing yPlus to field yPlus
+
+Time = 2100
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117314 max: 4.2921 average: 1.01137
+
+Patch 4 named hot y+ : min: 0.19275 max: 3.08371 average: 1.34531
+
+Patch 5 named cold y+ : min: 0.243708 max: 5.25158 average: 1.97202
+
+Writing yPlus to field yPlus
+
+Time = 2200
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117298 max: 4.29172 average: 1.01125
+
+Patch 4 named hot y+ : min: 0.192725 max: 3.0842 average: 1.34528
+
+Patch 5 named cold y+ : min: 0.243643 max: 5.26275 average: 1.97279
+
+Writing yPlus to field yPlus
+
+Time = 2300
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117288 max: 4.29144 average: 1.01117
+
+Patch 4 named hot y+ : min: 0.192709 max: 3.08454 average: 1.34526
+
+Patch 5 named cold y+ : min: 0.2436 max: 5.2709 average: 1.97337
+
+Writing yPlus to field yPlus
+
+Time = 2400
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117283 max: 4.29123 average: 1.01111
+
+Patch 4 named hot y+ : min: 0.192701 max: 3.08474 average: 1.34524
+
+Patch 5 named cold y+ : min: 0.243575 max: 5.27678 average: 1.9738
+
+Writing yPlus to field yPlus
+
+Time = 2500
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.11728 max: 4.29109 average: 1.01107
+
+Patch 4 named hot y+ : min: 0.192696 max: 3.08486 average: 1.34523
+
+Patch 5 named cold y+ : min: 0.243558 max: 5.28098 average: 1.97412
+
+Writing yPlus to field yPlus
+
+Time = 2600
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117278 max: 4.29098 average: 1.01105
+
+Patch 4 named hot y+ : min: 0.192692 max: 3.08494 average: 1.34522
+
+Patch 5 named cold y+ : min: 0.243547 max: 5.28396 average: 1.97434
+
+Writing yPlus to field yPlus
+
+Time = 2700
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117277 max: 4.29092 average: 1.01103
+
+Patch 4 named hot y+ : min: 0.19269 max: 3.08498 average: 1.34521
+
+Patch 5 named cold y+ : min: 0.243539 max: 5.28608 average: 1.97451
+
+Writing yPlus to field yPlus
+
+Time = 2800
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117275 max: 4.29087 average: 1.01102
+
+Patch 4 named hot y+ : min: 0.192687 max: 3.085 average: 1.34521
+
+Patch 5 named cold y+ : min: 0.243535 max: 5.28756 average: 1.97463
+
+Writing yPlus to field yPlus
+
+Time = 2900
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117275 max: 4.29084 average: 1.01102
+
+Patch 4 named hot y+ : min: 0.192686 max: 3.08502 average: 1.3452
+
+Patch 5 named cold y+ : min: 0.243531 max: 5.28864 average: 1.97471
+
+Writing yPlus to field yPlus
+
+Time = 3000
+Reading field U
+
+Reading field rho
+
+Reading/calculating face flux field phi
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          tabulated;
+    equationOfState tabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting RAS turbulence model SpalartAllmaras
+SpalartAllmarasCoeffs
+{
+    sigmaNut        0.66666;
+    kappa           0.41;
+    Prt             0.9;
+    Cb1             0.1355;
+    Cb2             0.622;
+    Cw2             0.3;
+    Cw3             2;
+    Cv1             7.1;
+    Cv2             5;
+}
+
+Patch 3 named sideWall y+ : min: 0.117274 max: 4.2908 average: 1.01101
+
+Patch 4 named hot y+ : min: 0.192685 max: 3.08503 average: 1.3452
+
+Patch 5 named cold y+ : min: 0.24353 max: 5.28937 average: 1.97477
+
+Writing yPlus to field yPlus
+
+End
+

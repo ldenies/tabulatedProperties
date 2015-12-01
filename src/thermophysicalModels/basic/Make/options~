@@ -6,4 +6,6 @@ EXE_INC = \
 
 
 LIB_LIBS = \
-    -lfiniteVolume
+    -L$(FOAM_USER_LIBBIN) \
+    -lfiniteVolume \
+    -lspecie

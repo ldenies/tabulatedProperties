@@ -33,7 +33,7 @@ Foam::tabulatedThermo<equationOfState>::tabulatedThermo(Istream& is)
 :
     equationOfState(is),
     cpTable_(readScalar(is)),
-    hTable_(readScalar(is))
+    hTable(readScalar(is))
 {
     is.check("tabulatedThermo::tabulatedThermo(Istream& is)");
 }
@@ -44,7 +44,7 @@ Foam::tabulatedThermo<equationOfState>::tabulatedThermo(const dictionary& dict)
 :
     equationOfState(dict),
     cpTable_ ("constant/cp"),   
-    hTable_ ("constant/h")  
+    hTable ("constant/h")  
 {
 }
 

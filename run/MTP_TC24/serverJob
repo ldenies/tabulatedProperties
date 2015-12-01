@@ -1,0 +1,19 @@
+#!/bin/sh
+#PBS -N kowf_tc24
+#PBS -l nodes=1:ppn=8,pmem=1000mb
+#PBS -j oe
+#############
+### This job's working directory
+echo Working directory is $PBS_O_WORKDIR
+cd $PBS_O_WORKDIR    
+echo Running on host `hostname`
+echo Time is `date`
+echo Directory is `pwd`
+
+module load openfoam/2.4.0
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+# Run your executable
+mpirun -np 8 myConjugateFoam -parallel >log.myConjugateFoam
+reconstructPar -region fluid
+reconstructPar -region solid

@@ -35,7 +35,7 @@ inline Foam::tabulatedThermo<equationOfState>::tabulatedThermo
 :
     equationOfState(st),
     cpTable_(cpTable),
-    hTable_(hTable)
+    hTable(hTable)
 {}
 
 
@@ -50,7 +50,7 @@ inline Foam::tabulatedThermo<equationOfState>::tabulatedThermo
 :
     equationOfState(name, ct),
     cpTable_(ct.cpTable_),
-    hTable_(ct.hTable_)
+    hTable(ct.hTable)
 {}
 
 
@@ -106,7 +106,7 @@ inline Foam::scalar Foam::tabulatedThermo<equationOfState>::cp
     const scalar T
 ) const
 {
-    return cpTable_(p,T)*this->W();
+    return cpTable_(p,T, false)*this->W();
 }
 
 template<class equationOfState>
@@ -115,7 +115,7 @@ inline Foam::scalar Foam::tabulatedThermo<equationOfState>::ha
     const scalar p, const scalar T
 ) const
 {
-    return hTable_(p,T)*this->W();
+    return hTable(p,T, false)*this->W();
 }
 
 
@@ -125,7 +125,7 @@ inline Foam::scalar Foam::tabulatedThermo<equationOfState>::hs
     const scalar p, const scalar T
 ) const
 {
-    return hTable_(p,T)*this->W();
+    return hTable(p,T, false)*this->W();
 }
 
 template<class equationOfState>

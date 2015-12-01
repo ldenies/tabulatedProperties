@@ -1,0 +1,3 @@
+myFluidFoam.C
+
+EXE = $(FOAM_APPBIN)/myFluidFoam

@@ -1,0 +1,6 @@
+set title "Heat flow through wall"
+set ylabel 'Heat'
+set xlabel 'Iteration'
+plot "< cat log.Flux | grep 'solidContact' | cut -d' ' -f2 | tr -d ','" title 'Q' with lines
+pause 1
+reread

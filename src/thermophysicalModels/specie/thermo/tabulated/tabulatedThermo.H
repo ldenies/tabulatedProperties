@@ -68,8 +68,6 @@ class tabulatedThermo
         //- Interpolation table with specific heat
         interpolation2DTable<scalar> cpTable_;
 
-        //- Interpolation table with enthalpy
-        interpolation2DTable<scalar> hTable_;
         
     // Private Member Functions
 
@@ -84,7 +82,10 @@ class tabulatedThermo
 
 public:
 
-    // Constructors
+    // Public data
+
+        //- Interpolation table with enthalpy
+        interpolation2DTable<scalar> hTable;
 
         //- Construct from Istream
         tabulatedThermo(Istream&);

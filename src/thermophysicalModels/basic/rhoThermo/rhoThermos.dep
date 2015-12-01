@@ -499,10 +499,10 @@ rhoThermo/rhoThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModel
 rhoThermo/rhoThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/adiabaticPerfectFluidI.H
 rhoThermo/rhoThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/adiabaticPerfectFluid.C
 rhoThermo/rhoThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/tabulated.H
-rhoThermo/rhoThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/interpolation2DTable.H
+rhoThermo/rhoThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/interpolation2DTable.H
 rhoThermo/rhoThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tableReader.H
 rhoThermo/rhoThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tableReader.C
-rhoThermo/rhoThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/interpolation2DTable.C
+rhoThermo/rhoThermos.dep: /home/luka/OpenFOAM/luka-2.3.1/src/thermophysicalModels/specie/lnInclude/interpolation2DTable.C
 rhoThermo/rhoThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IFstream.H
 rhoThermo/rhoThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/openFoamTableReader.H
 rhoThermo/rhoThermos.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/openFoamTableReader.C

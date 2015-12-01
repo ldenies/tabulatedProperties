@@ -78,28 +78,28 @@ inline Foam::autoPtr<Foam::tabulated<Specie> > Foam::tabulated<Specie>::New
 template<class Specie>
 inline Foam::scalar Foam::tabulated<Specie>::rho(scalar p, scalar T) const
 {
-    return rhoTable_(p,T);
+    return rhoTable_(p,T, false);
 }
 
 
 template<class Specie>
 inline Foam::scalar Foam::tabulated<Specie>::psi(scalar p, scalar T) const
 {
-    return rhoTable_(p,T)/p;
+    return rhoTable_(p,T, false)/p;
 }
 
 
 template<class Specie>
 inline Foam::scalar Foam::tabulated<Specie>::Z(scalar p, scalar T) const
 {
-    return p/(rhoTable_(p,T)*this->R()*T);
+    return p/(rhoTable_(p,T, false)*this->R()*T);
 }
 
 
 template<class Specie>
 inline Foam::scalar Foam::tabulated<Specie>::cpMcv(scalar p, scalar T) const
 {
-    return cpMcvTable_(p,T);
+    return cpMcvTable_(p,T, false);
 }
 
 

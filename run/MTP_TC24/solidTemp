@@ -1,0 +1,7 @@
+set title "Maximum solid temperature"
+set ylabel 'Temperature'
+set xlabel 'Iteration'
+plot "< cat log.myConjugateFoam | grep 'Min/max T:min(T)' | cut -d' ' -f19 | tr -d ','" title 'T_s,max' with lines, \
+"< cat log.myConjugateFoam | grep 'Min/max T:min(T)' | cut -d' ' -f10 | tr -d ','" title 'T_s,min' with lines
+pause 1
+reread

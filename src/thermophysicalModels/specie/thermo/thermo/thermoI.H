@@ -24,6 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "thermo.H"
+#include "interpolation2DTable.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
@@ -49,36 +50,9 @@ inline Foam::scalar Foam::species::thermo<Thermo, Type>::T
     scalar (thermo<Thermo, Type>::*limit)(const scalar) const
 ) const
 {
-    scalar Test = T0;
     scalar Tnew = T0;
-    scalar Ttol = T0*tol_;
-    int    iter = 0;
-
-    do
-    {
-        Test = Tnew;
-        Tnew =
-            (this->*limit)
-            (Test - ((this->*F)(p, Test) - f)/(this->*dFdT)(p, Test));
-
-        if (iter++ > maxIter_)
-        {
-            FatalErrorIn
-            (
-                "thermo<Thermo, Type>::T(scalar f, scalar T0, "
-                "scalar (thermo<Thermo, Type>::*F)"
-                "(const scalar) const, "
-                "scalar (thermo<Thermo, Type>::*dFdT)"
-                "(const scalar) const, "
-                "scalar (thermo<Thermo, Type>::*limit)"
-                "(const scalar) const"
-                ") const"
-            )   << "Maximum number of iterations exceeded"
-                << abort(FatalError);
-        }
-
-    } while (mag(Tnew - Test) > Ttol);
-
+    Tnew = this->hTable(p,f,true);
+        
     return Tnew;
 }
 

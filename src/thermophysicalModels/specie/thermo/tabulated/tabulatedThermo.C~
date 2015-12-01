@@ -43,8 +43,8 @@ template<class equationOfState>
 Foam::tabulatedThermo<equationOfState>::tabulatedThermo(const dictionary& dict)
 :
     equationOfState(dict),
-    cpTable_ ("/home/luka/cp"),   
-    hTable_ ("/home/luka/h")  
+    cpTable_ ("constant/cp"),   
+    hTable ("constant/h")  
 {
 }
 
