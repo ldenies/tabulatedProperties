@@ -1,3 +1,0 @@
-myRhoCentralFoam.C
-
-EXE = $(FOAM_APPBIN)/myRhoCentralFoam

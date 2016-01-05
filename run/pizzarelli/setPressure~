@@ -1,1 +1,0 @@
-funkySetFields -time 0 -field p -expression "85e5-pos().x*(85e5-70e5)/(30e-3)"

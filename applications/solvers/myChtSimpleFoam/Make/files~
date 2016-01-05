@@ -1,4 +1,0 @@
-myChtSimpleFoam.C
-
-EXE = $(FOAM_APPBIN)/myChtSimpleFoam
-
